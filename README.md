@@ -1,3 +1,5 @@
+
+
 <strong>How to use</strong><br>
 <segmented-control
     [options]="options"
