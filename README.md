@@ -1,4 +1,11 @@
 <strong>Inputs/Outputs:</strong><br>
+<segmented-control
+    [options]="options"
+    [value]="selectedOption"
+    (valueChanged)="selectedOption = $event"
+/>
+
+<strong>Inputs/Outputs:</strong><br>
 <ul>
   <li>
       options: SegmentedControlOption[]= [
