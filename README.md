@@ -1,11 +1,13 @@
 <img src="demo.gif" width="350px" alt="Demo">
 
 <strong>How to use</strong><br>
+```html
 <segmented-control
     [options]="options"
     [value]="selectedOption"
     (valueChanged)="selectedOption = $event"
 />
+```
 
 <strong>Example inputs</strong><br>
 <ul>
