@@ -1,11 +1,11 @@
-<strong>Inputs/Outputs:</strong><br>
+<strong>How to use</strong><br>
 <segmented-control
     [options]="options"
     [value]="selectedOption"
     (valueChanged)="selectedOption = $event"
 />
 
-<strong>Inputs/Outputs:</strong><br>
+<strong>Example inputs</strong><br>
 <ul>
   <li>
       options: SegmentedControlOption[]= [
@@ -14,5 +14,5 @@
       {label:"teste", value: 123}
     ];
   </li>
-  <li> [value]="123" //the current value </li>
+  <li> [value]="selectedOption" //the current value </li>
 </ul>
