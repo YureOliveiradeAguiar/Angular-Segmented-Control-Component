@@ -8,7 +8,7 @@
     (valueChanged)="selectedOption = $event"
 />
 ```
-The <strong>segmented-control (reactive)</strong><br> is the adapted version for reactive form. The other version is ideal for filters, view toggles and such.
+The <strong>segmented-control (reactive)</strong> is the adapted version for reactive form.<br>The other version is ideal for filters, view toggles and such.
 
 <strong>Example inputs</strong><br>
 ```html
